@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marque seu horário</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="page">
+        <h1>TERAPIA</h1>
+        <p>Preencha o formulário abaixo para agendar a sua terapia</p>
+    </header>
+    </div>
+
+    <main>
+        <div class="container">
+    <form>
+        <fieldset>
+            <div class="fieldset-wrapper">
+                <legend>Informações pessoais</legend>
+
+                <hr>
+            
+        <div class="group">  
+                <div class="input-wrapper">
+                <label for="therapy-name">Nome</label>
+                <input type="text" id="therapy-name">
+            </div>
+        
+            <div class="input-wrapper">
+                <label for="therapy-surname">Sobrenome</label>
+                <input type="text" id="therapy-surnamoe">
+            </div>
+        </div>  
+
+        <div class="input-wrapper">
+            <label for="email">Email
+              <span>(digite um e-mail válido)</span>
+            </label>
+
+            <input id="email" type="email">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="email">
+              Senha
+              <span>(mínimo 6 caractéres)</span>
+            </label>
+
+            <input id="email" type="password">
+          </div>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="fieldset-wrapper">
+                <legend>Informações do terapeuta</legend>
+
+                <hr>
+
+                <div class="input-wrapper">
+                    <label for="professional">Nome do seu terapeuta <span>(só o primeiro nome)</span></label>
+                    <input type="text" id="professional">
+                </div>
+        </fieldset>
+
+            <fieldset>
+            <div class="fieldset-wrapper">
+            <legend>Horários Disponíveis</legend>
+
+            <hr>
+</fieldset>
+           
+            <legend class="legend-group">Primeira opção</legend>
+
+            <div class="group">
+
+                <div class="input-wrapper date">
+                  <label for="begin-date">
+                    Data <span>(DD/MM/AAAA)</span>
+                  </label>
+      
+                  <input id="begin-date" type="date">
+                </div>
+      
+                <div class="input-wrapper">
+                  <label for="time-start">
+                    Das
+                  </label>
+      
+                  <input id="time-start" type="time">
+                </div>
+                <div class="input-wrapper">
+      
+                  <label for="time-start">
+                    Até
+                  </label>
+      
+                  <input id="time-start" type="time">
+                </div>
+              </div>
+
+              <legend class="legend-group">Segunda opção</legend>
+
+        <div class="group">
+
+          <div class="input-wrapper date">
+            <label for="begin-date">
+              Data <span>(DD/MM/AAAA)</span>
+            </label>
+
+            <input id="begin-date" type="date" placeholder="dd-mm-yyyy" value=""
+            min="1997-01-01" max="2030-12-31">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="time-start">
+              Das
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+          <div class="input-wrapper">
+
+            <label for="time-start">
+              Até
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+        </div>
+    
+    </form>
+    </div>
+    
+    <footer>
+        <button>
+            Enviar
+        </button>
+     </footer>
+    </main>
+
+</body>
+</html>
