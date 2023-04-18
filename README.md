@@ -1,4 +1,4 @@
-# <h1 align="center"> forms📋 </h1>
+# <h1 align="center"> forms 📋 </h1>
 
 ## 💻 Projects 
 
